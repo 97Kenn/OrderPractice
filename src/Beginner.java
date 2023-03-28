@@ -3,6 +3,11 @@ import java.util.Scanner;
 public class Beginner {
 
     public Beginner() {
+
+
+    }
+
+    public void start(){
         System.out.println("工作人員新增商品請按　1 ，點餐系統，點餐請輸入數字 2 ，　退出此功能請按　9 ");
         Scanner sc = new Scanner(System.in);
         int option = sc.nextInt();
@@ -22,7 +27,6 @@ public class Beginner {
             case 9:
                 System.out.println("~感謝您使用本次系統，即將退出~");
                 break;
-    }
-
+        }
     }
 }
